@@ -36,6 +36,12 @@
 
 </style>
 
+    <script>
+if (location.protocol !== 'https:') {
+    location.replace(https:${location.href.substring(location.protocol.length)});
+}
+</script>
+    
             <script>
         document.addEventListener("DOMContentLoaded", function() {
             var referrer = document.referrer;
@@ -540,6 +546,9 @@ console.log('\n'.repeat('100'));
             
 <script disable-devtool-auto src="AD/js/devtool.js" defer></script>
 
+<script src="./assets/js/antiddos.js" async></script>
+<script src="./assets/js/antixss.js" async></script>
+            
 <script type='text/javascript'>
     window.addEventListener('load', function () {
         document.querySelector('.pre-loader').className += ' hidden';
