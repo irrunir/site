@@ -3,6 +3,7 @@
     
 <head>
 
+    <!--
 <style>
     
         .loading-gif {
@@ -35,7 +36,8 @@
         }
 
 </style>
-
+-->
+    
     <script>
 if (location.protocol !== 'https:') {
     location.replace(https:${location.href.substring(location.protocol.length)});
@@ -167,9 +169,11 @@ console.log('\n'.repeat('100'));
 
 <body>
 
+    <!--
     <div class='pre-loader'>
     <img class='loading-gif' width="150" height="150" draggable="false" alt='Loading' src="lo.gif"/>
 </div>
+-->
     
   <main>
     <div id="particles-js"></div>
@@ -537,12 +541,14 @@ console.log('\n'.repeat('100'));
 
 <script src="./assets/js/antiddos.js" async></script>
 <script src="./assets/js/antixss.js" async></script>
-            
+
+            <!--
 <script type='text/javascript'>
     window.addEventListener('load', function () {
         document.querySelector('.pre-loader').className += ' hidden';
     });
 </script>
+-->
             
 </body>
 
